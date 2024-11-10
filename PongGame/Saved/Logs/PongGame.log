@@ -7741,3 +7741,905 @@ Script Stack (3 frames) :
 [2024.11.10-04.40.21:734][938]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18560.791016
 [2024.11.10-04.40.22:734][941]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2024.11.10-04.40.22:734][941]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18561.458984, Update Interval: 342.712494
+[2024.11.10-04.40.59:482][389]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.10-04.40.59:486][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.10-04.40.59:486][389]PIE: New page: PIE session: Match (10 nov. 2024 6:40:59)
+[2024.11.10-04.40.59:517][389]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Match
+[2024.11.10-04.40.59:520][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003744s)
+[2024.11.10-04.40.59:520][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Match.Match to /Game/Maps/UEDPIE_0_Match.Match (0.003799s)
+[2024.11.10-04.40.59:533][389]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.11.10-04.40.59:534][389]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-04.40.59:535][389]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-04.40.59:535][389]LogAIModule: Creating AISystem for world Match
+[2024.11.10-04.40.59:535][389]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2024.11.10-04.40.59:535][389]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2024.11.10-04.40.59:535][389]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.10-04.40.59:535][389]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.10-04.40.59:535][389]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.10-04.40.59:535][389]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.10-04.40.59:535][389]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.10-04.40.59:535][389]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.10-04.40.59:536][389]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.10-04.40.59:536][389]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.10-04.40.59:536][389]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.10-04.40.59:536][389]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.10-04.40.59:536][389]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.10-04.40.59:536][389]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.10-04.40.59:550][389]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (LucidSound)
+[2024.11.10-04.40.59:550][389]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.10-04.40.59:550][389]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.10-04.40.59:550][389]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.10-04.40.59:551][389]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=65
+[2024.11.10-04.40.59:551][389]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=65
+[2024.11.10-04.40.59:552][389]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=65
+[2024.11.10-04.40.59:552][389]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=65
+[2024.11.10-04.40.59:552][389]LogInit: FAudioDevice initialized with ID 65.
+[2024.11.10-04.40.59:552][389]LogAudio: Display: Audio Device (ID: 65) registered with world 'Match'.
+[2024.11.10-04.40.59:552][389]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 65
+[2024.11.10-04.40.59:554][389]LogLoad: Game class is 'BP_Pong_GameMode_C'
+[2024.11.10-04.40.59:555][389]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Match.Match up for play (max tick rate 0) at 2024.11.10-05.40.59
+[2024.11.10-04.40.59:555][389]LogWorld: Bringing up level for play took: 0.000804
+[2024.11.10-04.40.59:556][389]LogOnline: OSS: Created online subsystem instance for: :Context_89
+[2024.11.10-04.40.59:558][389]PIE: Server logged in
+[2024.11.10-04.40.59:559][389]PIE: Play in editor total start time 0,073 seconds.
+[2024.11.10-04.41.03:033][778]LogBlueprintUserMessages: [BP_Ball_C_0] Goal_Player1
+[2024.11.10-04.41.05:488][ 58]LogBlueprintUserMessages: [BP_Ball_C_0] Goal_Player2
+[2024.11.10-04.41.07:929][337]LogBlueprintUserMessages: [BP_Ball_C_0] Goal_Player1
+[2024.11.10-04.41.10:381][618]LogBlueprintUserMessages: [BP_Ball_C_0] Goal_Player2
+[2024.11.10-04.41.12:817][897]LogBlueprintUserMessages: [BP_Ball_C_0] Goal_Player1
+[2024.11.10-04.41.12:818][897]LogLongPackageNames: Warning: Can't Find URL: Map_02: . Invalidating and reverting to Default URL.
+[2024.11.10-04.41.12:828][898]LogLongPackageNames: Warning: Can't Find URL: Map_02: . Invalidating and reverting to Default URL.
+[2024.11.10-04.41.12:828][898]LogNet: Browse: /Game/Maps/Map_00
+[2024.11.10-04.41.12:828][898]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/Map_00
+[2024.11.10-04.41.12:828][898]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/Map_00'
+[2024.11.10-04.41.12:828][898]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/Map_00
+[2024.11.10-04.41.12:828][898]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/Map_00'
+[2024.11.10-04.41.12:837][899]LogNet: Browse: /Game/Maps/Map_00?closed
+[2024.11.10-04.41.12:837][899]LogNet: Connection failed; returning to Entry
+[2024.11.10-04.41.12:837][899]LogLoad: LoadMap: /Game/Maps/Map_00?closed
+[2024.11.10-04.41.12:837][899]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Match
+[2024.11.10-04.41.12:838][899]LogWorld: UWorld::CleanupWorld for Match, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-04.41.12:838][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.41.12:880][899]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.10-04.41.12:882][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.11.10-04.41.12:884][899]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2024.11.10-04.41.12:885][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000668s)
+[2024.11.10-04.41.12:885][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.000693s)
+[2024.11.10-04.41.12:885][899]LogAudio: Display: Audio Device (ID: 65) registered with world 'MainMenu'.
+[2024.11.10-04.41.12:885][899]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-04.41.12:885][899]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-04.41.12:885][899]LogAIModule: Creating AISystem for world MainMenu
+[2024.11.10-04.41.12:885][899]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2024.11.10-04.41.12:885][899]LogLoad: Game class is 'BP_Pong_GameMode_C'
+[2024.11.10-04.41.12:885][899]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.11.10-05.41.12
+[2024.11.10-04.41.12:886][899]LogWorld: Bringing up level for play took: 0.000194
+[2024.11.10-04.41.12:886][899]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.11.10-04.41.12:886][899]LogLoad: Took 0.049443 seconds to LoadMap(/Game/Maps/UEDPIE_0_MainMenu)
+[2024.11.10-04.41.12:896][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.11.10-04.41.15:747][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-04.41.15:747][226]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2024.11.10-04.41.15:747][226]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-04.41.15:747][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.41.15:749][226]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.10-04.41.15:752][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.41.15:763][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-04.41.15:763][226]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 65
+[2024.11.10-04.41.15:763][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2024.11.10-04.41.15:765][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2024.11.10-04.41.15:770][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.11.10-04.41.15:823][230]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2024.11.10-04.43.07:582][382]Cmd: DELETE
+[2024.11.10-04.43.07:582][382]Cmd: ACTOR DELETE
+[2024.11.10-04.43.07:584][382]LogEditorActor: Deleted Actor: TargetPoint
+[2024.11.10-04.43.07:584][382]LogEditorActor: Deleted Actor: TargetPoint
+[2024.11.10-04.43.07:586][382]LogEditorActor: Deleted Actor: TargetPoint
+[2024.11.10-04.43.07:586][382]LogEditorActor: Deleted Actor: TargetPoint
+[2024.11.10-04.43.07:597][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.11.10-04.43.07:598][382]LogEditorActor: Deleted 4 Actors (0.016 secs)
+[2024.11.10-04.43.12:004][887]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-04.43.12:034][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Match" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Maps/Match.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.11.10-04.43.12:048][887]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.11.10-04.43.12:057][887]LogSavePackage: Moving output files for package: /Game/Maps/Match
+[2024.11.10-04.43.12:058][887]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/Match543310DF49A5EB12BF3B83953469BB4A.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Maps/Match.umap'
+[2024.11.10-04.43.12:061][887]LogFileHelpers: Saving map 'Match' took 0.028
+[2024.11.10-04.43.12:069][887]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 7.64 sec)
+[2024.11.10-04.43.12:070][887]AssetCheck: New page: Asset Save: Match
+[2024.11.10-04.43.12:070][887]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Match.Match
+[2024.11.10-04.43.39:110][959]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.43.45:488][651]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.43.49:864][122]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.43.53:974][561]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.44.00:266][245]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.44.03:433][596]BlueprintLog: New page: Compile BP_Ball
+[2024.11.10-04.44.03:465][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.11.10-04.44.03:526][596]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-04.44.03:579][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Ball.uasset" SILENT=true
+[2024.11.10-04.44.03:601][596]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Ball
+[2024.11.10-04.44.03:601][596]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_Ball1E482FC0403B3382AE9E6B88AA1BAED9.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Ball.uasset'
+[2024.11.10-04.44.03:607][596]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 7.72 sec)
+[2024.11.10-04.44.03:610][596]AssetCheck: New page: Asset Save: BP_Ball
+[2024.11.10-04.44.03:610][596]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Ball.BP_Ball
+[2024.11.10-04.44.14:915][874]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.44.23:202][818]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.44.25:226][ 52]BlueprintLog: New page: Compile BP_Ball
+[2024.11.10-04.44.25:260][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.11.10-04.44.25:288][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-04.44.25:347][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Ball.uasset" SILENT=true
+[2024.11.10-04.44.25:369][ 52]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Ball
+[2024.11.10-04.44.25:370][ 52]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_BallCCCE3BDF45D3CA6FA9F9E8B6B2EC34AC.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Ball.uasset'
+[2024.11.10-04.44.25:376][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 7.81 sec)
+[2024.11.10-04.44.25:377][ 52]AssetCheck: New page: Asset Save: BP_Ball
+[2024.11.10-04.44.25:378][ 52]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Ball.BP_Ball
+[2024.11.10-04.44.35:604][226]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.44.43:407][117]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.44.45:366][346]BlueprintLog: New page: Compile BP_Ball
+[2024.11.10-04.44.45:396][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.11.10-04.44.45:414][346]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-04.44.45:470][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Ball.uasset" SILENT=true
+[2024.11.10-04.44.45:492][346]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Ball
+[2024.11.10-04.44.45:492][346]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_Ball3042E465458A8F6A18E42D927673034E.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Ball.uasset'
+[2024.11.10-04.44.45:499][346]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 7.90 sec)
+[2024.11.10-04.44.45:501][346]AssetCheck: New page: Asset Save: BP_Ball
+[2024.11.10-04.44.45:501][346]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Ball.BP_Ball
+[2024.11.10-04.45.02:290][298]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2024.11.10-04.45.02:291][298]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-04.45.02:291][298]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-04.45.10:488][241]BlueprintLog: New page: Compile BP_Goal
+[2024.11.10-04.45.10:508][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.11.10-04.45.10:517][241]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-04.45.10:544][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset" SILENT=true
+[2024.11.10-04.45.10:548][241]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Goal
+[2024.11.10-04.45.10:548][241]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_Goal24D8E4CB43C12908702010A903963BEC.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset'
+[2024.11.10-04.45.10:554][241]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 7.93 sec)
+[2024.11.10-04.45.10:556][241]AssetCheck: New page: Asset Save: BP_Goal
+[2024.11.10-04.45.10:556][241]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2024.11.10-04.45.11:834][390]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-04.45.11:834][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.45.12:884][497]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Paddle.BP_Paddle
+[2024.11.10-04.45.12:884][497]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-04.45.12:884][497]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-04.45.23:789][708]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.45.28:098][189]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.45.32:344][658]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.45.34:196][864]BlueprintLog: New page: Compile BP_Paddle
+[2024.11.10-04.45.34:228][864]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.11.10-04.45.34:266][864]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-04.45.34:327][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Paddle" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Paddle.uasset" SILENT=true
+[2024.11.10-04.45.34:336][864]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Paddle
+[2024.11.10-04.45.34:336][864]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_Paddle3048C581455D772CDC3EB5A036DECBB8.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Paddle.uasset'
+[2024.11.10-04.45.34:344][864]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 8.01 sec)
+[2024.11.10-04.45.34:346][864]AssetCheck: New page: Asset Save: BP_Paddle
+[2024.11.10-04.45.34:346][864]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Paddle.BP_Paddle
+[2024.11.10-04.45.42:498][755]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-04.45.42:498][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.45.47:170][292]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/EndMenu.EndMenu
+[2024.11.10-04.45.47:170][292]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-04.45.47:170][292]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-04.45.47:174][292]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-04.45.47:174][292]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-04.45.47:179][292]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.11.10-04.45.47:284][292]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.11.10-04.45.47:297][292]LogSlate: Took 0.012518 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.11.10-04.45.51:272][748]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-04.45.51:272][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.45.51:277][748]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-04.45.51:277][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.45.52:424][876]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/MainMenu.MainMenu
+[2024.11.10-04.45.52:425][876]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-04.45.52:425][876]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-04.45.52:429][876]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-04.45.52:429][876]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-04.45.55:529][224]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-04.45.55:529][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.45.55:533][224]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-04.45.55:533][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.45.56:438][326]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Match_Info.Match_Info
+[2024.11.10-04.45.56:438][326]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-04.45.56:438][326]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-04.46.01:341][902]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-04.46.01:341][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.46.02:271][  8]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/My_Widget_BP.My_Widget_BP
+[2024.11.10-04.46.02:272][  8]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-04.46.02:272][  8]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-04.46.02:277][  8]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-04.46.02:277][  8]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-04.46.21:702][283]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.46.25:308][707]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.46.27:661][984]BlueprintLog: New page: Compile My_Widget_BP
+[2024.11.10-04.46.27:687][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.11.10-04.46.27:720][984]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-04.46.27:750][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/My_Widget_BP" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/My_Widget_BP.uasset" SILENT=true
+[2024.11.10-04.46.27:756][984]LogSavePackage: Moving output files for package: /Game/Blueprints/My_Widget_BP
+[2024.11.10-04.46.27:757][984]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/My_Widget_BPACDC0B594204E923A42079B7A1301EA2.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/My_Widget_BP.uasset'
+[2024.11.10-04.46.27:764][984]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 8.05 sec)
+[2024.11.10-04.46.27:766][984]AssetCheck: New page: Asset Save: My_Widget_BP
+[2024.11.10-04.46.27:766][984]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/My_Widget_BP.My_Widget_BP
+[2024.11.10-04.46.34:742][799]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-04.46.34:742][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.46.34:746][799]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-04.46.34:746][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.46.36:226][971]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/Blueprints/Player_Type.Player_Type
+[2024.11.10-04.46.48:990][485]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18937.179688
+[2024.11.10-04.46.49:139][503]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.10-04.46.49:139][503]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18937.312500, Update Interval: 334.866180
+[2024.11.10-04.46.54:406][122]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2024.11.10-04.46.54:406][122]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-04.46.54:406][122]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-04.48.33:429][809]BlueprintLog: New page: Compile BP_Goal
+[2024.11.10-04.48.33:455][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.11.10-04.48.33:464][809]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-04.48.33:494][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset" SILENT=true
+[2024.11.10-04.48.33:498][809]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Goal
+[2024.11.10-04.48.33:499][809]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_Goal1BB65F8A48786919A22E9A8D9894542D.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset'
+[2024.11.10-04.48.33:506][809]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 8.10 sec)
+[2024.11.10-04.48.33:507][809]AssetCheck: New page: Asset Save: BP_Goal
+[2024.11.10-04.48.33:507][809]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2024.11.10-04.48.35:601][ 58]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.10-04.48.35:607][ 58]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.10-04.48.35:607][ 58]PIE: New page: PIE session: Match (10 nov. 2024 6:48:35)
+[2024.11.10-04.48.35:607][ 58]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Match
+[2024.11.10-04.48.35:609][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002034s)
+[2024.11.10-04.48.35:609][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Match.Match to /Game/Maps/UEDPIE_0_Match.Match (0.002059s)
+[2024.11.10-04.48.35:617][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.11.10-04.48.35:618][ 58]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-04.48.35:618][ 58]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-04.48.35:618][ 58]LogAIModule: Creating AISystem for world Match
+[2024.11.10-04.48.35:618][ 58]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2024.11.10-04.48.35:618][ 58]LogAudio: Display: Creating Audio Device:                 Id: 66, Scope: Unique, Realtime: True
+[2024.11.10-04.48.35:618][ 58]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.10-04.48.35:618][ 58]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.10-04.48.35:618][ 58]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.10-04.48.35:618][ 58]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.10-04.48.35:618][ 58]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.10-04.48.35:618][ 58]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.10-04.48.35:618][ 58]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.10-04.48.35:618][ 58]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.10-04.48.35:619][ 58]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.10-04.48.35:619][ 58]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.10-04.48.35:619][ 58]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.10-04.48.35:621][ 58]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.10-04.48.35:633][ 58]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (LucidSound)
+[2024.11.10-04.48.35:633][ 58]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.10-04.48.35:633][ 58]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.10-04.48.35:633][ 58]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.10-04.48.35:634][ 58]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=66
+[2024.11.10-04.48.35:634][ 58]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=66
+[2024.11.10-04.48.35:635][ 58]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=66
+[2024.11.10-04.48.35:635][ 58]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=66
+[2024.11.10-04.48.35:635][ 58]LogInit: FAudioDevice initialized with ID 66.
+[2024.11.10-04.48.35:635][ 58]LogAudio: Display: Audio Device (ID: 66) registered with world 'Match'.
+[2024.11.10-04.48.35:635][ 58]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 66
+[2024.11.10-04.48.35:638][ 58]LogLoad: Game class is 'BP_Pong_GameMode_C'
+[2024.11.10-04.48.35:638][ 58]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Match.Match up for play (max tick rate 0) at 2024.11.10-05.48.35
+[2024.11.10-04.48.35:638][ 58]LogWorld: Bringing up level for play took: 0.000731
+[2024.11.10-04.48.35:640][ 58]LogOnline: OSS: Created online subsystem instance for: :Context_100
+[2024.11.10-04.48.35:641][ 58]PIE: Server logged in
+[2024.11.10-04.48.35:642][ 58]PIE: Play in editor total start time 0,037 seconds.
+[2024.11.10-04.48.37:192][236]LogBlueprintUserMessages: [BP_Ball_C_0] Goal_Player1
+[2024.11.10-04.48.39:027][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-04.48.39:027][453]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Match
+[2024.11.10-04.48.39:027][453]LogWorld: UWorld::CleanupWorld for Match, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-04.48.39:027][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.48.39:034][453]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.10-04.48.39:037][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.48.39:044][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-04.48.39:044][453]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 66
+[2024.11.10-04.48.39:045][453]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2024.11.10-04.48.39:046][453]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2024.11.10-04.48.39:050][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.11.10-04.48.39:107][457]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2024.11.10-04.48.47:171][406]BlueprintLog: New page: Compile BP_Goal
+[2024.11.10-04.48.47:190][406]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.11.10-04.48.47:200][406]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-04.48.47:225][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset" SILENT=true
+[2024.11.10-04.48.47:229][406]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Goal
+[2024.11.10-04.48.47:229][406]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_Goal69C2E5A8494757FCADB2C5A3E29E0F53.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset'
+[2024.11.10-04.48.47:236][406]LogFileHelpers: InternalPromptForCheckoutAndSave took 35 ms (total: 8.13 sec)
+[2024.11.10-04.48.47:238][406]AssetCheck: New page: Asset Save: BP_Goal
+[2024.11.10-04.48.47:238][406]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2024.11.10-04.48.50:783][829]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.10-04.48.50:789][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.10-04.48.50:789][829]PIE: New page: PIE session: Match (10 nov. 2024 6:48:50)
+[2024.11.10-04.48.50:789][829]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Match
+[2024.11.10-04.48.50:791][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001975s)
+[2024.11.10-04.48.50:791][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Match.Match to /Game/Maps/UEDPIE_0_Match.Match (0.002000s)
+[2024.11.10-04.48.50:801][829]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.11.10-04.48.50:802][829]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-04.48.50:802][829]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-04.48.50:803][829]LogAIModule: Creating AISystem for world Match
+[2024.11.10-04.48.50:803][829]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2024.11.10-04.48.50:803][829]LogAudio: Display: Creating Audio Device:                 Id: 67, Scope: Unique, Realtime: True
+[2024.11.10-04.48.50:803][829]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.10-04.48.50:803][829]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.10-04.48.50:803][829]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.10-04.48.50:803][829]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.10-04.48.50:803][829]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.10-04.48.50:803][829]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.10-04.48.50:803][829]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.10-04.48.50:803][829]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.10-04.48.50:803][829]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.10-04.48.50:803][829]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.10-04.48.50:803][829]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.10-04.48.50:804][829]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.10-04.48.50:816][829]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (LucidSound)
+[2024.11.10-04.48.50:816][829]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.10-04.48.50:816][829]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.10-04.48.50:816][829]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.10-04.48.50:817][829]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=67
+[2024.11.10-04.48.50:817][829]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=67
+[2024.11.10-04.48.50:818][829]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=67
+[2024.11.10-04.48.50:818][829]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=67
+[2024.11.10-04.48.50:818][829]LogInit: FAudioDevice initialized with ID 67.
+[2024.11.10-04.48.50:818][829]LogAudio: Display: Audio Device (ID: 67) registered with world 'Match'.
+[2024.11.10-04.48.50:818][829]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 67
+[2024.11.10-04.48.50:820][829]LogLoad: Game class is 'BP_Pong_GameMode_C'
+[2024.11.10-04.48.50:821][829]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Match.Match up for play (max tick rate 0) at 2024.11.10-05.48.50
+[2024.11.10-04.48.50:821][829]LogWorld: Bringing up level for play took: 0.000719
+[2024.11.10-04.48.50:822][829]LogOnline: OSS: Created online subsystem instance for: :Context_101
+[2024.11.10-04.48.50:823][829]PIE: Server logged in
+[2024.11.10-04.48.50:824][829]PIE: Play in editor total start time 0,037 seconds.
+[2024.11.10-04.48.52:332][  2]LogBlueprintUserMessages: [BP_Ball_C_0] Goal_Player1
+[2024.11.10-04.48.55:646][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-04.48.55:646][394]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Match
+[2024.11.10-04.48.55:646][394]LogWorld: UWorld::CleanupWorld for Match, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-04.48.55:646][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.48.55:655][394]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.10-04.48.55:658][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.48.55:672][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-04.48.55:672][394]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 67
+[2024.11.10-04.48.55:672][394]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2024.11.10-04.48.55:674][394]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2024.11.10-04.48.55:678][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.11.10-04.48.55:712][395]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2024.11.10-04.50.37:714][  9]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.50.52:826][726]BlueprintLog: New page: Compile BP_Pong_GameMode
+[2024.11.10-04.50.52:852][726]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.11.10-04.50.52:878][726]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-04.50.52:909][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pong_GameMode" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Pong_GameMode.uasset" SILENT=true
+[2024.11.10-04.50.52:916][726]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Pong_GameMode
+[2024.11.10-04.50.52:916][726]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_Pong_GameMode58A020BF47D2B475A87E0EAFDDCCE897.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Pong_GameMode.uasset'
+[2024.11.10-04.50.52:923][726]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 8.18 sec)
+[2024.11.10-04.50.52:924][726]AssetCheck: New page: Asset Save: BP_Pong_GameMode
+[2024.11.10-04.50.52:924][726]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Pong_GameMode.BP_Pong_GameMode
+[2024.11.10-04.52.29:484][780]BlueprintLog: New page: Compile BP_Goal
+[2024.11.10-04.52.29:489][780]LogBlueprint: Error: [AssetLog] C:\Users\xcana\Documents\GitHub\PongGame\PongGame\Content\Blueprints\BP_Goal.uasset: [Compiler] This blueprint (self) is not a BP_Pong_GameMode_C, therefore ' Target ' must have a connection.
+[2024.11.10-04.52.29:508][780]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.11.10-04.52.29:523][780]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-04.52.29:550][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset" SILENT=true
+[2024.11.10-04.52.29:554][780]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Goal
+[2024.11.10-04.52.29:554][780]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_GoalF3BF936F450F7C74B069A2A267378764.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset'
+[2024.11.10-04.52.29:561][780]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 8.22 sec)
+[2024.11.10-04.52.29:565][780]AssetCheck: New page: Asset Save: BP_Goal
+[2024.11.10-04.52.29:565][780]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2024.11.10-04.53.03:889][772]LogSlate: External Image Picker: DecompressImage failed
+[2024.11.10-04.53.09:432][412]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19303.414062
+[2024.11.10-04.53.09:574][429]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.10-04.53.09:574][429]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19303.539062, Update Interval: 339.784546
+[2024.11.10-04.53.16:346][222]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-04.53.16:374][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Match" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Maps/Match.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.11.10-04.53.16:391][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.11.10-04.53.16:401][222]LogSavePackage: Moving output files for package: /Game/Maps/Match
+[2024.11.10-04.53.16:401][222]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/Match0312296E46B48987221AF69C82E57752.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Maps/Match.umap'
+[2024.11.10-04.53.16:405][222]LogFileHelpers: Saving map 'Match' took 0.032
+[2024.11.10-04.53.16:413][222]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 8.28 sec)
+[2024.11.10-04.53.16:414][222]AssetCheck: New page: Asset Save: Match
+[2024.11.10-04.53.16:414][222]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Match.Match
+[2024.11.10-04.57.28:527][  8]BlueprintLog: New page: Compile BP_Goal
+[2024.11.10-04.57.28:529][  8]LogBlueprint: Error: [AssetLog] C:\Users\xcana\Documents\GitHub\PongGame\PongGame\Content\Blueprints\BP_Goal.uasset: [Compiler] This blueprint (self) is not a BP_Pong_GameMode_C, therefore ' Target ' must have a connection.
+[2024.11.10-04.57.28:550][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.11.10-04.57.28:568][  8]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-04.57.28:596][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset" SILENT=true
+[2024.11.10-04.57.28:599][  8]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Goal
+[2024.11.10-04.57.28:599][  8]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_GoalB214905049C75D06B2E06AAFCA018A8F.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset'
+[2024.11.10-04.57.28:607][  8]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 8.32 sec)
+[2024.11.10-04.57.28:612][  8]AssetCheck: New page: Asset Save: BP_Goal
+[2024.11.10-04.57.28:612][  8]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2024.11.10-04.57.31:864][387]BlueprintLog: New page: Compile BP_Goal
+[2024.11.10-04.57.31:886][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.11.10-04.57.31:901][387]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-04.57.31:929][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset" SILENT=true
+[2024.11.10-04.57.31:933][387]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Goal
+[2024.11.10-04.57.31:933][387]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_Goal5D3E7AA043207076A71038AF030C1EAD.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset'
+[2024.11.10-04.57.31:941][387]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 8.36 sec)
+[2024.11.10-04.57.31:942][387]AssetCheck: New page: Asset Save: BP_Goal
+[2024.11.10-04.57.31:942][387]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2024.11.10-04.58.27:194][914]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.10-04.58.35:505][895]BlueprintLog: New page: Compile BP_Goal
+[2024.11.10-04.58.35:528][895]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.11.10-04.58.35:543][895]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-04.58.35:572][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset" SILENT=true
+[2024.11.10-04.58.35:577][895]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Goal
+[2024.11.10-04.58.35:577][895]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_Goal2E3481D84DAB43E0EAFBBDA35B561EFE.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset'
+[2024.11.10-04.58.35:583][895]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 8.40 sec)
+[2024.11.10-04.58.35:584][895]AssetCheck: New page: Asset Save: BP_Goal
+[2024.11.10-04.58.35:584][895]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2024.11.10-04.58.42:385][698]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.10-04.58.42:390][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.10-04.58.42:390][698]PIE: New page: PIE session: Match (10 nov. 2024 6:58:42)
+[2024.11.10-04.58.42:390][698]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Match
+[2024.11.10-04.58.42:393][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002046s)
+[2024.11.10-04.58.42:393][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Match.Match to /Game/Maps/UEDPIE_0_Match.Match (0.002072s)
+[2024.11.10-04.58.42:404][698]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.11.10-04.58.42:406][698]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-04.58.42:406][698]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-04.58.42:407][698]LogAIModule: Creating AISystem for world Match
+[2024.11.10-04.58.42:407][698]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2024.11.10-04.58.42:407][698]LogAudio: Display: Creating Audio Device:                 Id: 68, Scope: Unique, Realtime: True
+[2024.11.10-04.58.42:407][698]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.10-04.58.42:407][698]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.10-04.58.42:407][698]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.10-04.58.42:407][698]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.10-04.58.42:407][698]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.10-04.58.42:407][698]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.10-04.58.42:407][698]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.10-04.58.42:407][698]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.10-04.58.42:408][698]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.10-04.58.42:408][698]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.10-04.58.42:408][698]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.10-04.58.42:409][698]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.10-04.58.42:422][698]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (LucidSound)
+[2024.11.10-04.58.42:422][698]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.10-04.58.42:422][698]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.10-04.58.42:422][698]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.10-04.58.42:423][698]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=68
+[2024.11.10-04.58.42:423][698]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=68
+[2024.11.10-04.58.42:424][698]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=68
+[2024.11.10-04.58.42:424][698]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=68
+[2024.11.10-04.58.42:424][698]LogInit: FAudioDevice initialized with ID 68.
+[2024.11.10-04.58.42:424][698]LogAudio: Display: Audio Device (ID: 68) registered with world 'Match'.
+[2024.11.10-04.58.42:424][698]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 68
+[2024.11.10-04.58.42:427][698]LogLoad: Game class is 'BP_Pong_GameMode_C'
+[2024.11.10-04.58.42:428][698]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Match.Match up for play (max tick rate 0) at 2024.11.10-05.58.42
+[2024.11.10-04.58.42:428][698]LogWorld: Bringing up level for play took: 0.000805
+[2024.11.10-04.58.42:428][698]LogOnline: OSS: Created online subsystem instance for: :Context_102
+[2024.11.10-04.58.42:430][698]PIE: Server logged in
+[2024.11.10-04.58.42:431][698]PIE: Play in editor total start time 0,042 seconds.
+[2024.11.10-04.58.43:956][873]LogBlueprintUserMessages: [BP_Ball_C_0] Goal_Player2
+[2024.11.10-04.58.45:490][ 57]LogBlueprintUserMessages: [BP_Ball_C_1] Goal_Player1
+[2024.11.10-04.58.47:032][242]LogBlueprintUserMessages: [BP_Ball_C_2] Goal_Player2
+[2024.11.10-04.58.48:327][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-04.58.48:328][392]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Match
+[2024.11.10-04.58.48:328][392]LogWorld: UWorld::CleanupWorld for Match, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-04.58.48:328][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.58.48:341][392]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.10-04.58.48:344][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-04.58.48:357][392]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.10-04.58.48:358][392]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 68
+[2024.11.10-04.58.48:358][392]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68
+[2024.11.10-04.58.48:359][392]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68
+[2024.11.10-04.58.48:362][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-04.58.48:363][392]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.11.10-04.58.48:400][393]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2024.11.10-04.59.26:321][894]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19671.298828
+[2024.11.10-04.59.26:467][911]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.10-04.59.26:467][911]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19671.435547, Update Interval: 333.430573
+[2024.11.10-05.00.40:571][ 40]BlueprintLog: New page: Compile BP_Goal
+[2024.11.10-05.00.40:594][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.10-05.00.40:614][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-05.00.40:642][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset" SILENT=true
+[2024.11.10-05.00.40:646][ 40]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Goal
+[2024.11.10-05.00.40:646][ 40]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_Goal2F207CB34A2997F5E1B966BF7A3865A0.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset'
+[2024.11.10-05.00.40:653][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 8.44 sec)
+[2024.11.10-05.00.40:655][ 40]AssetCheck: New page: Asset Save: BP_Goal
+[2024.11.10-05.00.40:655][ 40]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2024.11.10-05.00.42:474][254]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.10-05.00.42:480][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.10-05.00.42:480][254]PIE: New page: PIE session: Match (10 nov. 2024 7:00:42)
+[2024.11.10-05.00.42:480][254]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Match
+[2024.11.10-05.00.42:482][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002013s)
+[2024.11.10-05.00.42:482][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Match.Match to /Game/Maps/UEDPIE_0_Match.Match (0.002038s)
+[2024.11.10-05.00.42:491][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.11.10-05.00.42:494][254]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-05.00.42:494][254]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-05.00.42:494][254]LogAIModule: Creating AISystem for world Match
+[2024.11.10-05.00.42:494][254]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2024.11.10-05.00.42:494][254]LogAudio: Display: Creating Audio Device:                 Id: 69, Scope: Unique, Realtime: True
+[2024.11.10-05.00.42:494][254]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.10-05.00.42:494][254]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.10-05.00.42:494][254]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.10-05.00.42:494][254]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.10-05.00.42:494][254]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.10-05.00.42:494][254]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.10-05.00.42:494][254]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.10-05.00.42:494][254]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.10-05.00.42:494][254]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.10-05.00.42:494][254]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.10-05.00.42:494][254]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.10-05.00.42:497][254]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.10-05.00.42:508][254]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (LucidSound)
+[2024.11.10-05.00.42:508][254]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.10-05.00.42:508][254]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.10-05.00.42:508][254]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.10-05.00.42:508][254]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=69
+[2024.11.10-05.00.42:508][254]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=69
+[2024.11.10-05.00.42:510][254]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=69
+[2024.11.10-05.00.42:510][254]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=69
+[2024.11.10-05.00.42:510][254]LogInit: FAudioDevice initialized with ID 69.
+[2024.11.10-05.00.42:510][254]LogAudio: Display: Audio Device (ID: 69) registered with world 'Match'.
+[2024.11.10-05.00.42:510][254]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 69
+[2024.11.10-05.00.42:512][254]LogLoad: Game class is 'BP_Pong_GameMode_C'
+[2024.11.10-05.00.42:513][254]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Match.Match up for play (max tick rate 0) at 2024.11.10-06.00.42
+[2024.11.10-05.00.42:513][254]LogWorld: Bringing up level for play took: 0.000718
+[2024.11.10-05.00.42:514][254]LogOnline: OSS: Created online subsystem instance for: :Context_103
+[2024.11.10-05.00.42:516][254]PIE: Server logged in
+[2024.11.10-05.00.42:517][254]PIE: Play in editor total start time 0,038 seconds.
+[2024.11.10-05.00.43:826][403]LogBlueprintUserMessages: [BP_Ball_C_0] Goal_Player1
+[2024.11.10-05.00.48:318][942]LogBlueprintUserMessages: [BP_Ball_C_1] Goal_Player1
+[2024.11.10-05.00.52:818][482]LogBlueprintUserMessages: [BP_Ball_C_2] Goal_Player1
+[2024.11.10-05.00.52:820][482]LogLongPackageNames: Warning: Can't Find URL: Map_02: . Invalidating and reverting to Default URL.
+[2024.11.10-05.00.52:828][483]LogLongPackageNames: Warning: Can't Find URL: Map_02: . Invalidating and reverting to Default URL.
+[2024.11.10-05.00.52:828][483]LogNet: Browse: /Game/Maps/Map_00
+[2024.11.10-05.00.52:828][483]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/Map_00
+[2024.11.10-05.00.52:828][483]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/Map_00'
+[2024.11.10-05.00.52:828][483]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/Map_00
+[2024.11.10-05.00.52:828][483]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/Map_00'
+[2024.11.10-05.00.52:834][484]LogNet: Browse: /Game/Maps/Map_00?closed
+[2024.11.10-05.00.52:834][484]LogNet: Connection failed; returning to Entry
+[2024.11.10-05.00.52:834][484]LogLoad: LoadMap: /Game/Maps/Map_00?closed
+[2024.11.10-05.00.52:834][484]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Match
+[2024.11.10-05.00.52:836][484]LogWorld: UWorld::CleanupWorld for Match, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-05.00.52:836][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-05.00.52:868][484]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.10-05.00.52:870][484]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.11.10-05.00.52:872][484]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2024.11.10-05.00.52:873][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000673s)
+[2024.11.10-05.00.52:873][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.000696s)
+[2024.11.10-05.00.52:873][484]LogAudio: Display: Audio Device (ID: 69) registered with world 'MainMenu'.
+[2024.11.10-05.00.52:873][484]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-05.00.52:873][484]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-05.00.52:873][484]LogAIModule: Creating AISystem for world MainMenu
+[2024.11.10-05.00.52:874][484]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2024.11.10-05.00.52:874][484]LogLoad: Game class is 'BP_Pong_GameMode_C'
+[2024.11.10-05.00.52:874][484]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.11.10-06.00.52
+[2024.11.10-05.00.52:874][484]LogWorld: Bringing up level for play took: 0.000193
+[2024.11.10-05.00.52:874][484]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.11.10-05.00.52:876][484]LogLoad: Took 0.040562 seconds to LoadMap(/Game/Maps/UEDPIE_0_MainMenu)
+[2024.11.10-05.00.52:886][484]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.11.10-05.00.54:817][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-05.00.54:817][710]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2024.11.10-05.00.54:817][710]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-05.00.54:817][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-05.00.54:819][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.10-05.00.54:822][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-05.00.54:832][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-05.00.54:832][710]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 69
+[2024.11.10-05.00.54:833][710]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69
+[2024.11.10-05.00.54:834][710]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69
+[2024.11.10-05.00.54:839][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.11.10-05.00.54:884][714]LogPlayLevel: Display: Destroying online subsystem :Context_103
+[2024.11.10-05.05.42:952][509]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20045.734375
+[2024.11.10-05.05.43:953][512]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.10-05.05.43:953][512]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20046.402344, Update Interval: 329.484558
+[2024.11.10-05.07.52:385][364]BlueprintLog: New page: Compile BP_Goal
+[2024.11.10-05.07.52:412][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.11.10-05.07.52:430][364]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-05.07.52:455][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset" SILENT=true
+[2024.11.10-05.07.52:459][364]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Goal
+[2024.11.10-05.07.52:460][364]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_GoalA9027D4A4DD5432803E578944068638D.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset'
+[2024.11.10-05.07.52:467][364]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 8.48 sec)
+[2024.11.10-05.07.52:468][364]AssetCheck: New page: Asset Save: BP_Goal
+[2024.11.10-05.07.52:468][364]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2024.11.10-05.07.53:662][503]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.10-05.07.53:668][503]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.10-05.07.53:668][503]PIE: New page: PIE session: Match (10 nov. 2024 7:07:53)
+[2024.11.10-05.07.53:668][503]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Match
+[2024.11.10-05.07.53:670][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002036s)
+[2024.11.10-05.07.53:670][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Match.Match to /Game/Maps/UEDPIE_0_Match.Match (0.002063s)
+[2024.11.10-05.07.53:681][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.11.10-05.07.53:683][503]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-05.07.53:683][503]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-05.07.53:684][503]LogAIModule: Creating AISystem for world Match
+[2024.11.10-05.07.53:684][503]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2024.11.10-05.07.53:684][503]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2024.11.10-05.07.53:684][503]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.10-05.07.53:684][503]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.10-05.07.53:684][503]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.10-05.07.53:684][503]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.10-05.07.53:684][503]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.10-05.07.53:684][503]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.10-05.07.53:684][503]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.10-05.07.53:684][503]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.10-05.07.53:684][503]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.10-05.07.53:684][503]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.10-05.07.53:684][503]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.10-05.07.53:687][503]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.10-05.07.53:699][503]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (LucidSound)
+[2024.11.10-05.07.53:699][503]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.10-05.07.53:699][503]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.10-05.07.53:699][503]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.10-05.07.53:700][503]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=70
+[2024.11.10-05.07.53:700][503]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=70
+[2024.11.10-05.07.53:701][503]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=70
+[2024.11.10-05.07.53:701][503]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=70
+[2024.11.10-05.07.53:701][503]LogInit: FAudioDevice initialized with ID 70.
+[2024.11.10-05.07.53:701][503]LogAudio: Display: Audio Device (ID: 70) registered with world 'Match'.
+[2024.11.10-05.07.53:701][503]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 70
+[2024.11.10-05.07.53:704][503]LogLoad: Game class is 'BP_Pong_GameMode_C'
+[2024.11.10-05.07.53:704][503]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Match.Match up for play (max tick rate 0) at 2024.11.10-06.07.53
+[2024.11.10-05.07.53:704][503]LogWorld: Bringing up level for play took: 0.000820
+[2024.11.10-05.07.53:706][503]LogOnline: OSS: Created online subsystem instance for: :Context_104
+[2024.11.10-05.07.53:708][503]PIE: Server logged in
+[2024.11.10-05.07.53:708][503]PIE: Play in editor total start time 0,043 seconds.
+[2024.11.10-05.07.55:144][667]LogBlueprintUserMessages: [BP_Ball_C_0] Goal_Player1
+[2024.11.10-05.07.57:620][964]LogBlueprintUserMessages: [BP_Ball_C_1] Goal_Player2
+[2024.11.10-05.07.57:625][964]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2024.11.10-05.07.59:979][247]LogBlueprintUserMessages: [BP_Ball_C_2] Goal_Player1
+[2024.11.10-05.08.04:779][823]LogBlueprintUserMessages: [BP_Ball_C_3] Goal_Player2
+[2024.11.10-05.08.07:154][108]LogBlueprintUserMessages: [BP_Ball_C_4] Goal_Player2
+[2024.11.10-05.08.07:155][108]LogLongPackageNames: Warning: Can't Find URL: Map_02: . Invalidating and reverting to Default URL.
+[2024.11.10-05.08.07:164][109]LogLongPackageNames: Warning: Can't Find URL: Map_02: . Invalidating and reverting to Default URL.
+[2024.11.10-05.08.07:164][109]LogNet: Browse: /Game/Maps/Map_00
+[2024.11.10-05.08.07:164][109]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/Map_00
+[2024.11.10-05.08.07:164][109]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/Map_00'
+[2024.11.10-05.08.07:164][109]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/Map_00
+[2024.11.10-05.08.07:164][109]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/Map_00'
+[2024.11.10-05.08.07:171][110]LogNet: Browse: /Game/Maps/Map_00?closed
+[2024.11.10-05.08.07:171][110]LogNet: Connection failed; returning to Entry
+[2024.11.10-05.08.07:171][110]LogLoad: LoadMap: /Game/Maps/Map_00?closed
+[2024.11.10-05.08.07:171][110]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Match
+[2024.11.10-05.08.07:172][110]LogWorld: UWorld::CleanupWorld for Match, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-05.08.07:172][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-05.08.07:221][110]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.10-05.08.07:222][110]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.11.10-05.08.07:226][110]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2024.11.10-05.08.07:227][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000764s)
+[2024.11.10-05.08.07:227][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.000791s)
+[2024.11.10-05.08.07:227][110]LogAudio: Display: Audio Device (ID: 70) registered with world 'MainMenu'.
+[2024.11.10-05.08.07:227][110]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-05.08.07:227][110]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-05.08.07:227][110]LogAIModule: Creating AISystem for world MainMenu
+[2024.11.10-05.08.07:227][110]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2024.11.10-05.08.07:227][110]LogLoad: Game class is 'BP_Pong_GameMode_C'
+[2024.11.10-05.08.07:228][110]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.11.10-06.08.07
+[2024.11.10-05.08.07:228][110]LogWorld: Bringing up level for play took: 0.000206
+[2024.11.10-05.08.07:228][110]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.11.10-05.08.07:229][110]LogLoad: Took 0.057516 seconds to LoadMap(/Game/Maps/UEDPIE_0_MainMenu)
+[2024.11.10-05.08.07:239][110]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.11.10-05.08.09:127][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-05.08.09:127][330]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2024.11.10-05.08.09:127][330]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-05.08.09:127][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-05.08.09:130][330]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.10-05.08.09:134][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-05.08.09:146][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-05.08.09:146][330]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 70
+[2024.11.10-05.08.09:146][330]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70
+[2024.11.10-05.08.09:148][330]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70
+[2024.11.10-05.08.09:152][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.11.10-05.08.09:200][333]LogPlayLevel: Display: Destroying online subsystem :Context_104
+[2024.11.10-05.08.39:591][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.11.10-05.08.39:592][ 84]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Match' took 0.012
+[2024.11.10-05.08.39:593][ 84]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Goal] ([2] browsable assets)...
+[2024.11.10-05.08.39:593][ 84]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Goal]
+[2024.11.10-05.08.39:593][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/Autosaves/Game/Blueprints/BP_Goal_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2024.11.10-05.08.39:596][ 84]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Goal_Auto7
+[2024.11.10-05.08.39:596][ 84]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_Goal_Auto722FDD9EA42E0B4C8DF8A64AE67767077.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/Autosaves/Game/Blueprints/BP_Goal_Auto7.uasset'
+[2024.11.10-05.08.39:606][ 84]LogFileHelpers: Auto-saving content packages took 0.014
+[2024.11.10-05.09.49:062][197]BlueprintLog: New page: Compile BP_Goal
+[2024.11.10-05.09.49:085][197]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.11.10-05.09.49:101][197]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-05.09.49:129][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset" SILENT=true
+[2024.11.10-05.09.49:133][197]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Goal
+[2024.11.10-05.09.49:133][197]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_Goal5276A7ED4F500C72520E5F9CC21AA54D.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset'
+[2024.11.10-05.09.49:142][197]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 8.52 sec)
+[2024.11.10-05.09.49:144][197]AssetCheck: New page: Asset Save: BP_Goal
+[2024.11.10-05.09.49:144][197]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2024.11.10-05.09.51:491][474]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.10-05.09.51:496][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.10-05.09.51:496][474]PIE: New page: PIE session: Match (10 nov. 2024 7:09:51)
+[2024.11.10-05.09.51:496][474]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Match
+[2024.11.10-05.09.51:498][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002038s)
+[2024.11.10-05.09.51:498][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Match.Match to /Game/Maps/UEDPIE_0_Match.Match (0.002067s)
+[2024.11.10-05.09.51:510][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.11.10-05.09.51:512][474]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-05.09.51:512][474]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-05.09.51:513][474]LogAIModule: Creating AISystem for world Match
+[2024.11.10-05.09.51:513][474]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2024.11.10-05.09.51:513][474]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2024.11.10-05.09.51:513][474]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.10-05.09.51:513][474]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.10-05.09.51:513][474]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.10-05.09.51:513][474]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.10-05.09.51:513][474]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.10-05.09.51:513][474]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.10-05.09.51:513][474]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.10-05.09.51:513][474]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.10-05.09.51:513][474]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.10-05.09.51:513][474]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.10-05.09.51:513][474]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.10-05.09.51:516][474]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.10-05.09.51:527][474]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (LucidSound)
+[2024.11.10-05.09.51:527][474]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.10-05.09.51:527][474]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.10-05.09.51:527][474]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.10-05.09.51:528][474]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=71
+[2024.11.10-05.09.51:528][474]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=71
+[2024.11.10-05.09.51:529][474]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=71
+[2024.11.10-05.09.51:530][474]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=71
+[2024.11.10-05.09.51:530][474]LogInit: FAudioDevice initialized with ID 71.
+[2024.11.10-05.09.51:530][474]LogAudio: Display: Audio Device (ID: 71) registered with world 'Match'.
+[2024.11.10-05.09.51:530][474]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 71
+[2024.11.10-05.09.51:532][474]LogLoad: Game class is 'BP_Pong_GameMode_C'
+[2024.11.10-05.09.51:533][474]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Match.Match up for play (max tick rate 0) at 2024.11.10-06.09.51
+[2024.11.10-05.09.51:533][474]LogWorld: Bringing up level for play took: 0.000748
+[2024.11.10-05.09.51:534][474]LogOnline: OSS: Created online subsystem instance for: :Context_105
+[2024.11.10-05.09.51:536][474]PIE: Server logged in
+[2024.11.10-05.09.51:536][474]PIE: Play in editor total start time 0,041 seconds.
+[2024.11.10-05.09.53:076][651]LogBlueprintUserMessages: [BP_Ball_C_0] Goal_Player2
+[2024.11.10-05.09.56:969][118]LogBlueprintUserMessages: [BP_Ball_C_1] Goal_Player1
+[2024.11.10-05.10.01:106][613]LogBlueprintUserMessages: [BP_Ball_C_2] Goal_Player1
+[2024.11.10-05.10.01:876][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-05.10.01:876][701]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Match
+[2024.11.10-05.10.01:876][701]LogWorld: UWorld::CleanupWorld for Match, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-05.10.01:876][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-05.10.01:891][701]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.10-05.10.01:894][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-05.10.01:908][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-05.10.01:908][701]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 71
+[2024.11.10-05.10.01:909][701]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71
+[2024.11.10-05.10.01:910][701]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71
+[2024.11.10-05.10.01:914][701]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.11.10-05.10.01:954][702]LogPlayLevel: Display: Destroying online subsystem :Context_105
+[2024.11.10-05.11.56:584][587]BlueprintLog: New page: Compile BP_Goal
+[2024.11.10-05.11.56:606][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.10-05.11.56:627][587]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.10-05.11.56:655][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset" SILENT=true
+[2024.11.10-05.11.56:659][587]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Goal
+[2024.11.10-05.11.56:660][587]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/BP_Goal19DBE94E4A4631B713559F94E139F221.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset'
+[2024.11.10-05.11.56:668][587]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 8.56 sec)
+[2024.11.10-05.11.56:669][587]AssetCheck: New page: Asset Save: BP_Goal
+[2024.11.10-05.11.56:669][587]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2024.11.10-05.11.57:720][710]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20415.906250
+[2024.11.10-05.11.57:859][727]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.10-05.11.57:859][727]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20416.033203, Update Interval: 327.494141
+[2024.11.10-05.11.57:896][731]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.10-05.11.57:902][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.10-05.11.57:902][731]PIE: New page: PIE session: Match (10 nov. 2024 7:11:57)
+[2024.11.10-05.11.57:902][731]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Match
+[2024.11.10-05.11.57:904][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002040s)
+[2024.11.10-05.11.57:904][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Match.Match to /Game/Maps/UEDPIE_0_Match.Match (0.002066s)
+[2024.11.10-05.11.57:914][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.11.10-05.11.57:916][731]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-05.11.57:916][731]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-05.11.57:916][731]LogAIModule: Creating AISystem for world Match
+[2024.11.10-05.11.57:916][731]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2024.11.10-05.11.57:916][731]LogAudio: Display: Creating Audio Device:                 Id: 72, Scope: Unique, Realtime: True
+[2024.11.10-05.11.57:916][731]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.10-05.11.57:916][731]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.10-05.11.57:916][731]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.10-05.11.57:916][731]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.10-05.11.57:916][731]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.10-05.11.57:916][731]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.10-05.11.57:916][731]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.10-05.11.57:916][731]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.10-05.11.57:917][731]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.10-05.11.57:917][731]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.10-05.11.57:917][731]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.10-05.11.57:918][731]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.10-05.11.57:930][731]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (LucidSound)
+[2024.11.10-05.11.57:931][731]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.10-05.11.57:931][731]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.10-05.11.57:931][731]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.10-05.11.57:931][731]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=72
+[2024.11.10-05.11.57:931][731]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=72
+[2024.11.10-05.11.57:932][731]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=72
+[2024.11.10-05.11.57:932][731]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=72
+[2024.11.10-05.11.57:933][731]LogInit: FAudioDevice initialized with ID 72.
+[2024.11.10-05.11.57:933][731]LogAudio: Display: Audio Device (ID: 72) registered with world 'Match'.
+[2024.11.10-05.11.57:933][731]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 72
+[2024.11.10-05.11.57:934][731]LogLoad: Game class is 'BP_Pong_GameMode_C'
+[2024.11.10-05.11.57:936][731]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Match.Match up for play (max tick rate 0) at 2024.11.10-06.11.57
+[2024.11.10-05.11.57:936][731]LogWorld: Bringing up level for play took: 0.000840
+[2024.11.10-05.11.57:938][731]LogOnline: OSS: Created online subsystem instance for: :Context_106
+[2024.11.10-05.11.57:939][731]PIE: Server logged in
+[2024.11.10-05.11.57:939][731]PIE: Play in editor total start time 0,04 seconds.
+[2024.11.10-05.11.59:464][906]LogBlueprintUserMessages: [BP_Ball_C_0] Goal_Player2
+[2024.11.10-05.12.05:966][686]LogBlueprintUserMessages: [BP_Ball_C_1] Goal_Player2
+[2024.11.10-05.12.10:077][179]LogBlueprintUserMessages: [BP_Ball_C_2] Goal_Player1
+[2024.11.10-05.12.14:310][687]LogBlueprintUserMessages: [BP_Ball_C_3] Goal_Player1
+[2024.11.10-05.12.20:812][467]LogBlueprintUserMessages: [BP_Ball_C_4] Goal_Player1
+[2024.11.10-05.12.20:813][467]LogLongPackageNames: Warning: Can't Find URL: Map_02: . Invalidating and reverting to Default URL.
+[2024.11.10-05.12.20:822][468]LogLongPackageNames: Warning: Can't Find URL: Map_02: . Invalidating and reverting to Default URL.
+[2024.11.10-05.12.20:823][468]LogNet: Browse: /Game/Maps/Map_00
+[2024.11.10-05.12.20:823][468]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/Map_00
+[2024.11.10-05.12.20:823][468]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/Map_00'
+[2024.11.10-05.12.20:823][468]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/Map_00
+[2024.11.10-05.12.20:823][468]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/Map_00'
+[2024.11.10-05.12.20:830][469]LogNet: Browse: /Game/Maps/Map_00?closed
+[2024.11.10-05.12.20:830][469]LogNet: Connection failed; returning to Entry
+[2024.11.10-05.12.20:830][469]LogLoad: LoadMap: /Game/Maps/Map_00?closed
+[2024.11.10-05.12.20:830][469]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Match
+[2024.11.10-05.12.20:831][469]LogWorld: UWorld::CleanupWorld for Match, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-05.12.20:831][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-05.12.20:880][469]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.10-05.12.20:882][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.11.10-05.12.20:884][469]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2024.11.10-05.12.20:885][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000756s)
+[2024.11.10-05.12.20:885][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.000781s)
+[2024.11.10-05.12.20:885][469]LogAudio: Display: Audio Device (ID: 72) registered with world 'MainMenu'.
+[2024.11.10-05.12.20:885][469]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-05.12.20:885][469]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-05.12.20:886][469]LogAIModule: Creating AISystem for world MainMenu
+[2024.11.10-05.12.20:886][469]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2024.11.10-05.12.20:886][469]LogLoad: Game class is 'BP_Pong_GameMode_C'
+[2024.11.10-05.12.20:886][469]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.11.10-06.12.20
+[2024.11.10-05.12.20:886][469]LogWorld: Bringing up level for play took: 0.000210
+[2024.11.10-05.12.20:886][469]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.11.10-05.12.20:888][469]LogLoad: Took 0.057970 seconds to LoadMap(/Game/Maps/UEDPIE_0_MainMenu)
+[2024.11.10-05.12.20:897][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.11.10-05.12.25:326][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-05.12.25:326][994]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2024.11.10-05.12.25:326][994]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-05.12.25:326][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-05.12.25:329][994]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.10-05.12.25:333][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-05.12.25:341][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-05.12.25:341][994]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 72
+[2024.11.10-05.12.25:341][994]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=72
+[2024.11.10-05.12.25:343][994]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=72
+[2024.11.10-05.12.25:348][994]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.11.10-05.12.25:396][998]LogPlayLevel: Display: Destroying online subsystem :Context_106
+[2024.11.10-05.13.06:202][562]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.10-05.13.06:208][562]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.10-05.13.06:208][562]PIE: New page: PIE session: Match (10 nov. 2024 7:13:06)
+[2024.11.10-05.13.06:208][562]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Match
+[2024.11.10-05.13.06:210][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002215s)
+[2024.11.10-05.13.06:210][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Match.Match to /Game/Maps/UEDPIE_0_Match.Match (0.002246s)
+[2024.11.10-05.13.06:219][562]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.11.10-05.13.06:223][562]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.10-05.13.06:223][562]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.10-05.13.06:223][562]LogAIModule: Creating AISystem for world Match
+[2024.11.10-05.13.06:223][562]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2024.11.10-05.13.06:223][562]LogAudio: Display: Creating Audio Device:                 Id: 73, Scope: Unique, Realtime: True
+[2024.11.10-05.13.06:223][562]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.10-05.13.06:223][562]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.10-05.13.06:223][562]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.10-05.13.06:223][562]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.10-05.13.06:223][562]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.10-05.13.06:223][562]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.10-05.13.06:223][562]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.10-05.13.06:223][562]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.10-05.13.06:224][562]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.10-05.13.06:224][562]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.10-05.13.06:224][562]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.10-05.13.06:225][562]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.10-05.13.06:238][562]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (LucidSound)
+[2024.11.10-05.13.06:238][562]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.10-05.13.06:238][562]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.10-05.13.06:238][562]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.10-05.13.06:238][562]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=73
+[2024.11.10-05.13.06:238][562]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=73
+[2024.11.10-05.13.06:239][562]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=73
+[2024.11.10-05.13.06:239][562]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=73
+[2024.11.10-05.13.06:239][562]LogInit: FAudioDevice initialized with ID 73.
+[2024.11.10-05.13.06:239][562]LogAudio: Display: Audio Device (ID: 73) registered with world 'Match'.
+[2024.11.10-05.13.06:239][562]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 73
+[2024.11.10-05.13.06:242][562]LogLoad: Game class is 'BP_Pong_GameMode_C'
+[2024.11.10-05.13.06:243][562]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Match.Match up for play (max tick rate 0) at 2024.11.10-06.13.06
+[2024.11.10-05.13.06:243][562]LogWorld: Bringing up level for play took: 0.000764
+[2024.11.10-05.13.06:244][562]LogOnline: OSS: Created online subsystem instance for: :Context_107
+[2024.11.10-05.13.06:247][562]PIE: Server logged in
+[2024.11.10-05.13.06:248][562]PIE: Play in editor total start time 0,042 seconds.
+[2024.11.10-05.13.08:657][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-05.13.08:657][835]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Match
+[2024.11.10-05.13.08:657][835]LogWorld: UWorld::CleanupWorld for Match, bSessionEnded=true, bCleanupResources=true
+[2024.11.10-05.13.08:657][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-05.13.08:660][835]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.10-05.13.08:663][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.10-05.13.08:673][835]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.10-05.13.08:673][835]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 73
+[2024.11.10-05.13.08:674][835]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73
+[2024.11.10-05.13.08:676][835]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73
+[2024.11.10-05.13.08:679][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.10-05.13.08:681][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.11.10-05.13.08:729][836]LogPlayLevel: Display: Destroying online subsystem :Context_107
+[2024.11.10-05.18.00:312][519]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20774.751953
+[2024.11.10-05.18.01:312][522]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.10-05.18.01:312][522]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20775.417969, Update Interval: 354.556091
+[2024.11.10-05.19.24:695][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.11.10-05.19.24:699][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Match" FILE="C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/Autosaves/Game/Maps/Match_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.11.10-05.19.24:707][771]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Match_Auto8
+[2024.11.10-05.19.24:707][771]LogSavePackage: Moving 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/Match_Auto8737E24A8438E62AD67F57B8766D84D42.tmp' to 'C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/Autosaves/Game/Maps/Match_Auto8.umap'
+[2024.11.10-05.19.24:708][771]LogAssetRegistry: Warning: ScanPathsSynchronous: C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Saved/Autosaves/Game/Maps/Match_Auto8.umap is in the /Temp path, will not scan.
+[2024.11.10-05.19.24:709][771]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Match' took 0.025
+[2024.11.10-05.19.24:709][771]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.025
