@@ -8,9 +8,6 @@
 				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Maps/Match.umap",
 				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Materials/Material_Black.uasset",
 				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Materials/Material_White.uasset",
-				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Materials/Material_Blue.uasset",
-				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/Displacer_BP.uasset",
-				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/HelloWorld_BP.uasset",
 				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Goal.uasset",
 				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/Porteria_BP.uasset",
 				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Ball.uasset",
@@ -20,7 +17,11 @@
 				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Pong_Player.uasset",
 				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/Pong_Player_BP.uasset",
 				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/My_Widget_BP.uasset",
-				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Paddle.uasset"
+				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_Paddle.uasset",
+				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/BP_MatchHUD.uasset",
+				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Materials/Material_Blue.uasset",
+				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/Displacer_BP.uasset",
+				"C:/Users/xcana/Documents/GitHub/PongGame/PongGame/Content/Blueprints/HelloWorld_BP.uasset"
 			]
 		}
 	]
